@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "paths": {
+      "@hotstar/web-ui-components-lib/legacy/*": [
+        "./node_modules/@hotstar/web-ui-components-lib/types/*"
+      ]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "../../global.d.ts", "../**/*.d.ts"],
+  "exclude": ["node_modules", ".next", "dist"]
+}
